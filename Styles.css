@@ -1,7 +1,51 @@
 h1{
    color:Black;
-   font-size: 30px; 
- }
-ul li {
-	border: solid;
+   font-size: 50px; 
+   text-align:center;
 }
+.prvni-trida{
+	font-style: italic:
+}
+img{
+	height: 930px;
+}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Love {background-color: gray;} /* Gray */
+.Love:hover {background-color: gray;}
+
+.Kissis {background-color: gray;} /* Gray */
+.Kissis:hover {background: gray;}
+
+.Hugs {background-color: gray;} /* Gray */
+.Hugs:hover {background: gray;}
+
+.danger {background-color: gray;} /* Gray */ 
+.danger:hover {background: gray;}
+
+.smile {background-color: gray;} /* Gray */ 
+.smile:hover {background: gray;}
+</style>
+</head>
+<body>
+
+<h1>Alert Buttons</h1>
+
+<button class="btn Love">Love</button>
+<button class="btn Kissis">Kissis</button>
+<button class="btn Hugs">Hugs</button>
+<button class="btn danger">Danger</button>
+<button class="btn smile">smile</button>
+
+</body>
+</html>

@@ -2,13 +2,15 @@
 <html>
 	<head>
 		<title>Moje prvni uzasna stranka</title>
-		<link rel="stylesheet" href="styles/styles.css">
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
-		<h1 title="nadpis"> <h1 style="color:rgb(255,0,0)"><u>Ahoj, vitejte ve vodafone</u></h1>
+		<h1 title="nadpis" id="prvni" class="prvni-trida tucna/trida">* Winter *</h1>
+		<h1> <i>Lovely Days</i> </h1>
+		<div>
 		<img src="prr.jpg" alt="Vodafone">
+		</div>
 		<a href="https://www.google.cz">odkazy na google</a>
-		
 		<div>
 			<ul>
 				<li><b><i>prvni odrazka</b></i></li>
@@ -17,28 +19,42 @@
 			</ul>
 		</div>
 	
-	<table border="1">
-		<thead>
-
-		
-		<tbody>
-				<tr>
-					<th>Jmeno</th>
-					<th>Prijmeni</th>
-					<th>Vek</th>
-				<tr>
-		</thead>
-		</tbody>
-				<tr>
-					<td><i>Tomas</i></td>
-					<td><i>Vomacka</i></td>
-					<td><i>19</i></td>
-				<tr>
-					<td><i>Frantisek</i></td>
-					<td><i>Kulik</i></td>
-					<td><i>24</i></td>
-				<tr>
-		</table>
+	
 	</body>
 </html>
 
+<button class="btn Love">Love</button>
+<button class="btn Kissis">Kissis</button>
+<button class="btn Hugs">Hugs</button>
+<button class="btn danger">Danger</button>
+<button class="btn smile">smile</button>
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="obrazek1.jpg" style="width:100%">
+    <div class="text">I like winter, because i dont look fat in warm clothes</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="obrazek2.jpg" style="width:100%">
+    <div class="text">Winter. You will miss it when it's gone</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="obrazek3.jpg" style="width:100%">
+    <div class="text">Cold days warm heart</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
